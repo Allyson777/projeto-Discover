@@ -1,0 +1,51 @@
+* {
+    /*o * é o seletor universal do css
+    aqui fizemos um reset de css que ja vem por padrao 
+    */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/bg-mobile.jpg);
+
+    background-repeat: no-repeat;
+    /*para de repetir imagens, valor padrão do backeground URL*/
+    background-position: top center;
+    /*define a imagem ao centro pelo eixo y com o (top) e do eixo x com o (center*/
+    background-size: cover;
+    /*faz com que a imagem do background cubra todo o fundo da tela (cover). Independente do tamanho da tela.*/
+
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+#container {
+    /*não aplica em cima nem em baixo.*/
+    width: 360px;
+    margin: auto;
+    border: 1px solid red;
+    height: 712px;
+    margin: 56px auto 0px;
+
+}
+
+#profile img {
+    width: 118px;
+    padding: 24px;
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -24px;
+}
