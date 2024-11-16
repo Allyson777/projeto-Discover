@@ -31,7 +31,7 @@ body {
     /*define a imagem ao centro pelo eixo y com o (top) e do eixo x com o (center*/
     background-size: cover;
     /*faz com que a imagem do background cubra todo o fundo da tela (cover). Independente do tamanho da tela.*/
-
+    height: 100vh;
 }
 
 body * {
@@ -162,4 +162,11 @@ footer {
     /*o botão do switch no modo light faz:*/
     right: 0;
     left: initial;
+}
+
+@media(min-width:700px) {
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-dark.jpg);
+    }
 }
